@@ -9,14 +9,14 @@
     "86": 100000
   },
   "part_name": {
-    "Tool%Box%LED": 100000,
-    "Book%Spoon": 100000,
-    "Wood%Bucket": 100000,
-    "Kindle%LED": 100000,
-    "Wood%Basswood": 100000,
-    "White%Lamp": 100000,
-    "Kindle%Torx": 100000,
-    "Glue%Book": 100000
+    "Tool_Box_LED": 100000,
+    "Book_Spoon": 100000,
+    "Wood_Bucket": 100000,
+    "Kindle_LED": 100000,
+    "Wood_Basswood": 100000,
+    "White_Lamp": 100000,
+    "Kindle_Torx": 100000,
+    "Glue_Book": 100000
   },
   "texture": {
     "flat": 100000,
