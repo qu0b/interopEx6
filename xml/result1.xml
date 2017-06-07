@@ -1,0 +1,696 @@
+<?xml version="1.0"?>
+<orders>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.409335</discount>
+      <quantity_ordered>18</quantity_ordered>
+    </executed>
+    <webshop id="121">
+      <webshop_name>WinterGustav</webshop_name>
+      <contact>
+        <hotline>1936096</hotline>
+        <url>http://www.WinterGustav.vi</url>
+      </contact>
+    </webshop>
+    <project id="70">
+      <project_name>dwagJohannes</project_name>
+    </project>
+    <part id="580">
+      <part_name>Tool Box LED</part_name>
+      <stock_number>343</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.409335</discount>
+      <quantity_ordered>6</quantity_ordered>
+    </executed>
+    <webshop id="121">
+      <webshop_name>WinterGustav</webshop_name>
+      <contact>
+        <hotline>1936096</hotline>
+        <url>http://www.WinterGustav.vi</url>
+      </contact>
+    </webshop>
+    <project id="70">
+      <project_name>dwagJohannes</project_name>
+    </project>
+    <part id="18">
+      <part_name>Book Spoon</part_name>
+      <stock_number>200</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.866344</discount>
+      <quantity_ordered>72</quantity_ordered>
+    </executed>
+    <webshop id="154">
+      <webshop_name>Madonnatesla</webshop_name>
+      <contact>
+        <hotline>2253149</hotline>
+        <url>http://www.Madonnatesla.gr</url>
+      </contact>
+    </webshop>
+    <project id="72">
+      <project_name>SnookiSnooki</project_name>
+    </project>
+    <part id="226">
+      <part_name>Wood Bucket</part_name>
+      <stock_number>321</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.866344</discount>
+      <quantity_ordered>2</quantity_ordered>
+    </executed>
+    <webshop id="154">
+      <webshop_name>Madonnatesla</webshop_name>
+      <contact>
+        <hotline>2253149</hotline>
+        <url>http://www.Madonnatesla.gr</url>
+      </contact>
+    </webshop>
+    <project id="72">
+      <project_name>SnookiSnooki</project_name>
+    </project>
+    <part id="407">
+      <part_name>Kindle LED</part_name>
+      <stock_number>106</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.511532</discount>
+      <quantity_ordered>15</quantity_ordered>
+    </executed>
+    <webshop id="296">
+      <webshop_name>JohannesBae</webshop_name>
+      <contact>
+        <hotline>2588959</hotline>
+        <url>http://www.JohannesBae.gr</url>
+      </contact>
+    </webshop>
+    <project id="93">
+      <project_name>trickdonald</project_name>
+    </project>
+    <part id="391">
+      <part_name>Wood Basswood</part_name>
+      <stock_number>177</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.511532</discount>
+      <quantity_ordered>44</quantity_ordered>
+    </executed>
+    <webshop id="296">
+      <webshop_name>JohannesBae</webshop_name>
+      <contact>
+        <hotline>2588959</hotline>
+        <url>http://www.JohannesBae.gr</url>
+      </contact>
+    </webshop>
+    <project id="93">
+      <project_name>trickdonald</project_name>
+    </project>
+    <part id="731">
+      <part_name>White Lamp</part_name>
+      <stock_number>209</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.49601</discount>
+      <quantity_ordered>39</quantity_ordered>
+    </executed>
+    <webshop id="137">
+      <webshop_name>trackWinter</webshop_name>
+      <contact>
+        <hotline>8864061</hotline>
+        <url>http://www.trackWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="94">
+      <project_name>JohannesFred</project_name>
+    </project>
+    <part id="734">
+      <part_name>Kindle Torx</part_name>
+      <stock_number>375</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.774635</discount>
+      <quantity_ordered>24</quantity_ordered>
+    </executed>
+    <webshop id="444">
+      <webshop_name>trickgamma</webshop_name>
+      <contact>
+        <hotline>5977844</hotline>
+        <url>http://www.trickgamma.vi</url>
+      </contact>
+    </webshop>
+    <project id="133">
+      <project_name>RuedigerBuzz</project_name>
+    </project>
+    <part id="109">
+      <part_name>Glue Book</part_name>
+      <stock_number>106</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.310216</discount>
+      <quantity_ordered>88</quantity_ordered>
+    </executed>
+    <webshop id="242">
+      <webshop_name>BaeSnoop</webshop_name>
+      <contact>
+        <hotline>3928290</hotline>
+        <url>http://www.BaeSnoop.au</url>
+      </contact>
+    </webshop>
+    <project id="155">
+      <project_name>trickBuzz</project_name>
+    </project>
+    <part id="78">
+      <part_name>Banner Kauri</part_name>
+      <stock_number>267</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.310216</discount>
+      <quantity_ordered>61</quantity_ordered>
+    </executed>
+    <webshop id="242">
+      <webshop_name>BaeSnoop</webshop_name>
+      <contact>
+        <hotline>3928290</hotline>
+        <url>http://www.BaeSnoop.au</url>
+      </contact>
+    </webshop>
+    <project id="155">
+      <project_name>trickBuzz</project_name>
+    </project>
+    <part id="218">
+      <part_name>Lamp Kindle</part_name>
+      <stock_number>148</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.236042</discount>
+      <quantity_ordered>22</quantity_ordered>
+    </executed>
+    <webshop id="253">
+      <webshop_name>dwagBuzz</webshop_name>
+      <contact>
+        <hotline>1817190</hotline>
+        <url>http://www.dwagBuzz.ad</url>
+      </contact>
+    </webshop>
+    <project id="165">
+      <project_name>Buzzring</project_name>
+    </project>
+    <part id="106">
+      <part_name>Basswood Rimu</part_name>
+      <stock_number>127</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.526234</discount>
+      <quantity_ordered>9</quantity_ordered>
+    </executed>
+    <webshop id="242">
+      <webshop_name>BaeSnoop</webshop_name>
+      <contact>
+        <hotline>3928290</hotline>
+        <url>http://www.BaeSnoop.au</url>
+      </contact>
+    </webshop>
+    <project id="176">
+      <project_name>FredSnooki</project_name>
+    </project>
+    <part id="610">
+      <part_name>Torx Knife</part_name>
+      <stock_number>268</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.526234</discount>
+      <quantity_ordered>10</quantity_ordered>
+    </executed>
+    <webshop id="242">
+      <webshop_name>BaeSnoop</webshop_name>
+      <contact>
+        <hotline>3928290</hotline>
+        <url>http://www.BaeSnoop.au</url>
+      </contact>
+    </webshop>
+    <project id="176">
+      <project_name>FredSnooki</project_name>
+    </project>
+    <part id="310">
+      <part_name>Screw Glue</part_name>
+      <stock_number>243</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.526234</discount>
+      <quantity_ordered>24</quantity_ordered>
+    </executed>
+    <webshop id="242">
+      <webshop_name>BaeSnoop</webshop_name>
+      <contact>
+        <hotline>3928290</hotline>
+        <url>http://www.BaeSnoop.au</url>
+      </contact>
+    </webshop>
+    <project id="176">
+      <project_name>FredSnooki</project_name>
+    </project>
+    <part id="647">
+      <part_name>Beer Soda</part_name>
+      <stock_number>138</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.790908</discount>
+      <quantity_ordered>28</quantity_ordered>
+    </executed>
+    <webshop id="376">
+      <webshop_name>Elvisgamma</webshop_name>
+      <contact>
+        <hotline>9582091</hotline>
+        <url>http://www.Elvisgamma.at</url>
+      </contact>
+    </webshop>
+    <project id="222">
+      <project_name>trackGustav</project_name>
+    </project>
+    <part id="324">
+      <part_name>Rimu Soda</part_name>
+      <stock_number>119</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.790908</discount>
+      <quantity_ordered>73</quantity_ordered>
+    </executed>
+    <webshop id="376">
+      <webshop_name>Elvisgamma</webshop_name>
+      <contact>
+        <hotline>9582091</hotline>
+        <url>http://www.Elvisgamma.at</url>
+      </contact>
+    </webshop>
+    <project id="222">
+      <project_name>trackGustav</project_name>
+    </project>
+    <part id="13">
+      <part_name>Ash Ash</part_name>
+      <stock_number>245</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.156374</discount>
+      <quantity_ordered>55</quantity_ordered>
+    </executed>
+    <webshop id="239">
+      <webshop_name>MarkWinter</webshop_name>
+      <contact>
+        <hotline>1023360</hotline>
+        <url>http://www.MarkWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="235">
+      <project_name>alphaBuzz</project_name>
+    </project>
+    <part id="40">
+      <part_name>White Sugi</part_name>
+      <stock_number>310</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.156374</discount>
+      <quantity_ordered>23</quantity_ordered>
+    </executed>
+    <webshop id="239">
+      <webshop_name>MarkWinter</webshop_name>
+      <contact>
+        <hotline>1023360</hotline>
+        <url>http://www.MarkWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="235">
+      <project_name>alphaBuzz</project_name>
+    </project>
+    <part id="757">
+      <part_name>Beer Torx</part_name>
+      <stock_number>206</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.156374</discount>
+      <quantity_ordered>21</quantity_ordered>
+    </executed>
+    <webshop id="239">
+      <webshop_name>MarkWinter</webshop_name>
+      <contact>
+        <hotline>1023360</hotline>
+        <url>http://www.MarkWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="235">
+      <project_name>alphaBuzz</project_name>
+    </project>
+    <part id="32">
+      <part_name>Tool Box Kindle</part_name>
+      <stock_number>136</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.156374</discount>
+      <quantity_ordered>15</quantity_ordered>
+    </executed>
+    <webshop id="239">
+      <webshop_name>MarkWinter</webshop_name>
+      <contact>
+        <hotline>1023360</hotline>
+        <url>http://www.MarkWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="235">
+      <project_name>alphaBuzz</project_name>
+    </project>
+    <part id="798">
+      <part_name>Knife Beer</part_name>
+      <stock_number>228</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.156374</discount>
+      <quantity_ordered>15</quantity_ordered>
+    </executed>
+    <webshop id="239">
+      <webshop_name>MarkWinter</webshop_name>
+      <contact>
+        <hotline>1023360</hotline>
+        <url>http://www.MarkWinter.us</url>
+      </contact>
+    </webshop>
+    <project id="235">
+      <project_name>alphaBuzz</project_name>
+    </project>
+    <part id="311">
+      <part_name>Bucket Birch</part_name>
+      <stock_number>235</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.24378</discount>
+      <quantity_ordered>81</quantity_ordered>
+    </executed>
+    <webshop id="37">
+      <webshop_name>Wintergoogle</webshop_name>
+      <contact>
+        <hotline>4505366</hotline>
+        <url>http://www.Wintergoogle.au</url>
+      </contact>
+    </webshop>
+    <project id="270">
+      <project_name>frododonald</project_name>
+    </project>
+    <part id="614">
+      <part_name>White White</part_name>
+      <stock_number>155</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.227487</discount>
+      <quantity_ordered>8</quantity_ordered>
+    </executed>
+    <webshop id="151">
+      <webshop_name>Johannesring</webshop_name>
+      <contact>
+        <hotline>9869556</hotline>
+        <url>http://www.Johannesring.de</url>
+      </contact>
+    </webshop>
+    <project id="270">
+      <project_name>frododonald</project_name>
+    </project>
+    <part id="1">
+      <part_name>Ash Wood</part_name>
+      <stock_number>390</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.214094</discount>
+      <quantity_ordered>45</quantity_ordered>
+    </executed>
+    <webshop id="59">
+      <webshop_name>MadonnaSnooki</webshop_name>
+      <contact>
+        <hotline>8752728</hotline>
+        <url>http://www.MadonnaSnooki.ad</url>
+      </contact>
+    </webshop>
+    <project id="291">
+      <project_name>trickMadonna</project_name>
+    </project>
+    <part id="539">
+      <part_name>Pine White</part_name>
+      <stock_number>205</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.989133</discount>
+      <quantity_ordered>24</quantity_ordered>
+    </executed>
+    <webshop id="408">
+      <webshop_name>randyFelix</webshop_name>
+      <contact>
+        <hotline>4345856</hotline>
+        <url>http://www.randyFelix.bj</url>
+      </contact>
+    </webshop>
+    <project id="328">
+      <project_name>Gustavtick</project_name>
+    </project>
+    <part id="272">
+      <part_name>White Soda</part_name>
+      <stock_number>138</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.989133</discount>
+      <quantity_ordered>24</quantity_ordered>
+    </executed>
+    <webshop id="408">
+      <webshop_name>randyFelix</webshop_name>
+      <contact>
+        <hotline>4345856</hotline>
+        <url>http://www.randyFelix.bj</url>
+      </contact>
+    </webshop>
+    <project id="328">
+      <project_name>Gustavtick</project_name>
+    </project>
+    <part id="704">
+      <part_name> Polydrive Bagel</part_name>
+      <stock_number>168</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.989133</discount>
+      <quantity_ordered>53</quantity_ordered>
+    </executed>
+    <webshop id="408">
+      <webshop_name>randyFelix</webshop_name>
+      <contact>
+        <hotline>4345856</hotline>
+        <url>http://www.randyFelix.bj</url>
+      </contact>
+    </webshop>
+    <project id="328">
+      <project_name>Gustavtick</project_name>
+    </project>
+    <part id="97">
+      <part_name>Slot Pine</part_name>
+      <stock_number>313</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.29533</discount>
+      <quantity_ordered>96</quantity_ordered>
+    </executed>
+    <webshop id="321">
+      <webshop_name>KevinRuediger</webshop_name>
+      <contact>
+        <hotline>7338396</hotline>
+        <url>http://www.KevinRuediger.de</url>
+      </contact>
+    </webshop>
+    <project id="329">
+      <project_name>GustavMadonna</project_name>
+    </project>
+    <part id="623">
+      <part_name>Banner Torx</part_name>
+      <stock_number>360</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.29533</discount>
+      <quantity_ordered>91</quantity_ordered>
+    </executed>
+    <webshop id="321">
+      <webshop_name>KevinRuediger</webshop_name>
+      <contact>
+        <hotline>7338396</hotline>
+        <url>http://www.KevinRuediger.de</url>
+      </contact>
+    </webshop>
+    <project id="329">
+      <project_name>GustavMadonna</project_name>
+    </project>
+    <part id="57">
+      <part_name>Basswood LED</part_name>
+      <stock_number>190</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.219071</discount>
+      <quantity_ordered>49</quantity_ordered>
+    </executed>
+    <webshop id="421">
+      <webshop_name>MarkRuediger</webshop_name>
+      <contact>
+        <hotline>10114363</hotline>
+        <url>http://www.MarkRuediger.gh</url>
+      </contact>
+    </webshop>
+    <project id="342">
+      <project_name>gammaRuediger</project_name>
+    </project>
+    <part id="739">
+      <part_name>Pine Birch</part_name>
+      <stock_number>306</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.267015</discount>
+      <quantity_ordered>78</quantity_ordered>
+    </executed>
+    <webshop id="49">
+      <webshop_name>teslaalpha</webshop_name>
+      <contact>
+        <hotline>5890353</hotline>
+        <url>http://www.teslaalpha.ve</url>
+      </contact>
+    </webshop>
+    <project id="354">
+      <project_name>Gustavfrodo</project_name>
+    </project>
+    <part id="479">
+      <part_name>Tool Box Pine</part_name>
+      <stock_number>282</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.829259</discount>
+      <quantity_ordered>42</quantity_ordered>
+    </executed>
+    <webshop id="141">
+      <webshop_name>teslaalpha</webshop_name>
+      <contact>
+        <hotline>6016457</hotline>
+        <url>http://www.teslaalpha.gr</url>
+      </contact>
+    </webshop>
+    <project id="366">
+      <project_name>googleBae</project_name>
+    </project>
+    <part id="706">
+      <part_name>Soda Tool Box</part_name>
+      <stock_number>292</stock_number>
+    </part>
+  </order>
+  <order>
+    <executed>
+      <executed_by>Elvis</executed_by>
+      <discount>0.829259</discount>
+      <quantity_ordered>82</quantity_ordered>
+    </executed>
+    <webshop id="141">
+      <webshop_name>teslaalpha</webshop_name>
+      <contact>
+        <hotline>6016457</hotline>
+        <url>http://www.teslaalpha.gr</url>
+      </contact>
+    </webshop>
+    <project id="366">
+      <project_name>googleBae</project_name>
+    </project>
+    <part id="232">
+      <part_name>Book Beer</part_name>
+      <stock_number>136</stock_number>
+    </part>
+  </order>
+</orders>

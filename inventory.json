@@ -1,0 +1,39 @@
+{
+  "discount": {
+    "23": "9000",
+    "31": 100000,
+    "40": 100000,
+    "49": 100000,
+    "51": 100000,
+    "77": 100000,
+    "86": 100000
+  },
+  "part_name": {
+    "Tool%Box%LED": 100000,
+    "Book%Spoon": 100000,
+    "Wood%Bucket": 100000,
+    "Kindle%LED": 100000,
+    "Wood%Basswood": 100000,
+    "White%Lamp": 100000,
+    "Kindle%Torx": 100000,
+    "Glue%Book": 100000
+  },
+  "texture": {
+    "flat": 100000,
+    "rough": 100000,
+    "smooth": 100000,
+    "rippled": 100000,
+    "bumpy": 100000,
+    "soft": 100000,
+    "fuzzy": 100000
+  },
+  "url": {
+    "WinterGustav": 100000,
+    "Madonnatesla": 100000,
+    "JohannesBae": 100000,
+    "trackWinter": 100000,
+    "trickgamma": 100000,
+    "BaeSnoop": 100000,
+    "dwagBuzz": 100000
+  }
+}

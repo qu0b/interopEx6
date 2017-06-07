@@ -1,0 +1,119 @@
+<testset>
+  <endpoints>
+    <teil1 xmlns="http://riddl.org/ns/common-patterns/properties/1.0"></teil1>
+    <teil2 xmlns="http://riddl.org/ns/common-patterns/properties/1.0"></teil2>
+    <teil3 xmlns="http://riddl.org/ns/common-patterns/properties/1.0"></teil3>
+    <teil4 xmlns="http://riddl.org/ns/common-patterns/properties/1.0"></teil4>
+    <progress xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://abgabe.cs.univie.ac.at:9025/</progress>
+    <correlation xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://abgabe.cs.univie.ac.at:9029/</correlation>
+    <produzieren xmlns="http://riddl.org/ns/common-patterns/properties/1.0">http://cpee.org:9350</produzieren>
+  </endpoints>
+  <description>
+    <description xmlns="http://cpee.org/ns/description/1.0">
+      <manipulate id="man">
+        data.pid = Digest::MD5.hexdigest(Kernel::rand().to_s)
+      </manipulate>
+      <parallel svg-label="">
+        <parallel_branch>
+          <call id="a11" endpoint="teil1">
+            <parameters>
+              <label>Menge teil1</label>
+              <method>:get</method>
+            </parameters>
+            <finalize>data.teil1 = result["amount"] - 1</finalize>
+          </call>
+          <call id="a21" endpoint="teil1">
+            <parameters>
+              <label>Menge teil1 setzen</label>
+              <method>:put</method>
+              <arguments>
+                <amount>data.teil1</amount>
+              </arguments>
+            </parameters>
+          </call>
+        </parallel_branch>
+        <parallel_branch>
+          <call id="a12" endpoint="teil2">
+            <parameters>
+              <label>Menge teil2</label>
+              <method>:get</method>
+            </parameters>
+            <finalize>data.teil2 = result["amount"] - 1</finalize>
+          </call>
+          <call id="a22" endpoint="teil2">
+            <parameters>
+              <label>Menge teil2 setzen</label>
+              <method>:put</method>
+              <arguments>
+                <amount>data.teil2</amount>
+              </arguments>
+            </parameters>
+          </call>
+        </parallel_branch>
+        <parallel_branch>
+          <call id="a13" endpoint="teil3">
+            <parameters>
+              <label>Menge teil3</label>
+              <method>:get</method>
+            </parameters>
+            <finalize>data.teil3 = result["amount"] - 1</finalize>
+          </call>
+          <call id="a23" endpoint="teil3">
+            <parameters>
+              <label>Menge teil3 setzen</label>
+              <method>:put</method>
+              <arguments>
+                <amount>data.teil3</amount>
+              </arguments>
+            </parameters>
+          </call>
+        </parallel_branch>
+        <parallel_branch>
+          <call id="a14" endpoint="teil4">
+            <parameters>
+              <label>Menge teil4</label>
+              <method>:get</method>
+            </parameters>
+            <finalize>data.teil4 = result["amount"] - 1</finalize>
+          </call>
+          <call id="a24" endpoint="teil4">
+            <parameters>
+              <label>Menge Rohre setzen</label>
+              <method>:put</method>
+              <arguments>
+                <amount>data.teil4</amount>
+              </arguments>
+            </parameters>
+          </call>
+        </parallel_branch>
+      </parallel>
+      <call id="a3" endpoint="produzieren">
+        <parameters>
+          <label>Teil produzieren</label>
+          <method>:post</method>
+          <arguments>
+            <delegate>endpoints.progress</delegate>
+            <async>endpoints.correlation</async>
+            <pid>data.pid</pid>
+          </arguments>
+        </parameters>
+      </call>
+      <loop mode="pre_test" condition="data.progress != 'END'">
+        <call id="a4" endpoint="correlation">
+          <parameters>
+            <label>Warten auf Fortschritt</label>
+            <method>:post</method>
+            <arguments>
+              <pid>data.pid</pid>
+            </arguments>
+          </parameters>s
+          <finalize>p result;data.progress = result["progress"]</finalize>
+        </call>
+      </loop>
+    </description>
+  </description>
+  <attributes>
+    <info xmlns="http://riddl.org/ns/common-patterns/properties/1.0">Stefan Starflinger 1209919</info>
+    <modeltype xmlns="http://riddl.org/ns/common-patterns/properties/1.0">CPEE</modeltype>
+  </attributes>
+</testset>

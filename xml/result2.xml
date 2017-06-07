@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<sadfriends>
+  <sadfriend>
+    <friend id="311">
+      <name>Snooki</name>
+      <age>65</age>
+    </friend>
+    <contact>
+      <email>Snooki@Mark.us</email>
+      <website>http://www.Snooki.us</website>
+    </contact>
+    <project id="18">
+      <project_name>randygamma</project_name>
+      <details>
+        <description>
+          <location country="AD">
+            <responsible position="Project Manager">Mark</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="562">
+      <name>Johannes</name>
+      <age>88</age>
+    </friend>
+    <contact>
+      <email>Johannes@Madonna.at</email>
+      <website>http://www.Johannes.at</website>
+    </contact>
+    <project id="12">
+      <project_name>trackRuediger</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="CFO">Kevin</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="468">
+      <name>Snooki</name>
+      <age>17</age>
+    </friend>
+    <contact>
+      <email>Snooki@Kevin.gh</email>
+      <website>http://www.Snooki.gh</website>
+    </contact>
+    <project id="12">
+      <project_name>trackRuediger</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="CFO">Kevin</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="174">
+      <name>trick</name>
+      <age>14</age>
+    </friend>
+    <contact>
+      <email>trick@Winter.gh</email>
+      <website>http://www.trick.gh</website>
+    </contact>
+    <project id="6">
+      <project_name>teslaElvis</project_name>
+      <details>
+        <description>
+          <location country="DE">
+            <responsible position="General Manager">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="678">
+      <name>track</name>
+      <age>80</age>
+    </friend>
+    <contact>
+      <email>track@Elvis.at</email>
+      <website>http://www.track.at</website>
+    </contact>
+    <project id="26">
+      <project_name>Kevingamma</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="General Manager">alpha</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="212">
+      <name>Felix</name>
+      <age>17</age>
+    </friend>
+    <contact>
+      <email>Felix@Gustav.gh</email>
+      <website>http://www.Felix.gh</website>
+    </contact>
+    <project id="15">
+      <project_name>frodoBae</project_name>
+      <details>
+        <description>
+          <location country="AT">
+            <responsible position="CTO">Snoop</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="451">
+      <name>frodo</name>
+      <age>66</age>
+    </friend>
+    <contact>
+      <email>frodo@Winter.ad</email>
+      <website>http://www.frodo.ad</website>
+    </contact>
+    <project id="25">
+      <project_name>Baering</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="CTO">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="12">
+      <name>Buzz</name>
+      <age>64</age>
+    </friend>
+    <contact>
+      <email>Buzz@Melvin.gr</email>
+      <website>http://www.Buzz.gr</website>
+    </contact>
+    <project id="21">
+      <project_name>ringfrodo</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="COO">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="555">
+      <name>google</name>
+      <age>54</age>
+    </friend>
+    <contact>
+      <email>google@dwag.bj</email>
+      <website>http://www.google.bj</website>
+    </contact>
+    <project id="17">
+      <project_name>BuzzWinter</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="CEO">Fred</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="131">
+      <name>Melvin</name>
+      <age>46</age>
+    </friend>
+    <contact>
+      <email>Melvin@Felix.bj</email>
+      <website>http://www.Melvin.bj</website>
+    </contact>
+    <project id="14">
+      <project_name>Gustavdwag</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="CFO">Buzz</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="76">
+      <name>randy</name>
+      <age>38</age>
+    </friend>
+    <contact>
+      <email>randy@Felix.de</email>
+      <website>http://www.randy.de</website>
+    </contact>
+    <project id="6">
+      <project_name>teslaElvis</project_name>
+      <details>
+        <description>
+          <location country="DE">
+            <responsible position="General Manager">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="140">
+      <name>tesla</name>
+      <age>71</age>
+    </friend>
+    <contact>
+      <email>tesla@Snoop.vi</email>
+      <website>http://www.tesla.vi</website>
+    </contact>
+    <project id="11">
+      <project_name>MarkRuediger</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="CFO">Madonna</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="635">
+      <name>Buzz</name>
+      <age>23</age>
+    </friend>
+    <contact>
+      <email>Buzz@Kevin.bj</email>
+      <website>http://www.Buzz.bj</website>
+    </contact>
+    <project id="22">
+      <project_name>frodoSnoop</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="COO">Wiff</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="36">
+      <name>tick</name>
+      <age>14</age>
+    </friend>
+    <contact>
+      <email>tick@dwag.bj</email>
+      <website>http://www.tick.bj</website>
+    </contact>
+    <project id="3">
+      <project_name>Buzzdwag</project_name>
+      <details>
+        <description>
+          <location country="AT">
+            <responsible position="COO">Felix</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="725">
+      <name>Fred</name>
+      <age>28</age>
+    </friend>
+    <contact>
+      <email>Fred@Johannes.ad</email>
+      <website>http://www.Fred.ad</website>
+    </contact>
+    <project id="8">
+      <project_name>teslaWiff</project_name>
+      <details>
+        <description>
+          <location country="AU">
+            <responsible position="Project Manager">Fred</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="1">
+      <name>alpha</name>
+      <age>82</age>
+    </friend>
+    <contact>
+      <email>alpha@track.at</email>
+      <website>http://www.alpha.at</website>
+    </contact>
+    <project id="28">
+      <project_name>SnookiMadonna</project_name>
+      <details>
+        <description>
+          <location country="VE">
+            <responsible position="CFO">Felix</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="710">
+      <name>Elvis</name>
+      <age>49</age>
+    </friend>
+    <contact>
+      <email>Elvis@Ruediger.gl</email>
+      <website>http://www.Elvis.gl</website>
+    </contact>
+    <project id="20">
+      <project_name>Snoopgoogle</project_name>
+      <details>
+        <description>
+          <location country="US">
+            <responsible position="Project Manager">Mark</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="471">
+      <name>Madonna</name>
+      <age>13</age>
+    </friend>
+    <contact>
+      <email>Madonna@Wiff.tr</email>
+      <website>http://www.Madonna.tr</website>
+    </contact>
+    <project id="4">
+      <project_name>ringtesla</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="CTO">Wiff</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="549">
+      <name>Elvis</name>
+      <age>14</age>
+    </friend>
+    <contact>
+      <email>Elvis@Snooki.bj</email>
+      <website>http://www.Elvis.bj</website>
+    </contact>
+    <project id="0">
+      <project_name>Wifftrick</project_name>
+      <details>
+        <description>
+          <location country="DE">
+            <responsible position="Project Manager">gamma</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="557">
+      <name>Ruediger</name>
+      <age>86</age>
+    </friend>
+    <contact>
+      <email>Ruediger@frodo.at</email>
+      <website>http://www.Ruediger.at</website>
+    </contact>
+    <project id="5">
+      <project_name>teslaFelix</project_name>
+      <details>
+        <description>
+          <location country="US">
+            <responsible position="General Manager">google</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="683">
+      <name>Buzz</name>
+      <age>48</age>
+    </friend>
+    <contact>
+      <email>Buzz@frodo.gl</email>
+      <website>http://www.Buzz.gl</website>
+    </contact>
+    <project id="26">
+      <project_name>Kevingamma</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="General Manager">alpha</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="61">
+      <name>google</name>
+      <age>11</age>
+    </friend>
+    <contact>
+      <email>google@Elvis.gr</email>
+      <website>http://www.google.gr</website>
+    </contact>
+    <project id="11">
+      <project_name>MarkRuediger</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="CFO">Madonna</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="776">
+      <name>Elvis</name>
+      <age>59</age>
+    </friend>
+    <contact>
+      <email>Elvis@google.au</email>
+      <website>http://www.Elvis.au</website>
+    </contact>
+    <project id="13">
+      <project_name>tracktrick</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="Project Manager">Snoop</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="504">
+      <name>google</name>
+      <age>77</age>
+    </friend>
+    <contact>
+      <email>google@Wiff.gh</email>
+      <website>http://www.google.gh</website>
+    </contact>
+    <project id="11">
+      <project_name>MarkRuediger</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="CFO">Madonna</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="58">
+      <name>randy</name>
+      <age>88</age>
+    </friend>
+    <contact>
+      <email>randy@Elvis.vi</email>
+      <website>http://www.randy.vi</website>
+    </contact>
+    <project id="10">
+      <project_name>tickJohannes</project_name>
+      <details>
+        <description>
+          <location country="TR">
+            <responsible position="COO">Bae</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="712">
+      <name>track</name>
+      <age>70</age>
+    </friend>
+    <contact>
+      <email>track@Bae.us</email>
+      <website>http://www.track.us</website>
+    </contact>
+    <project id="9">
+      <project_name>Wifftrack</project_name>
+      <details>
+        <description>
+          <location country="GH">
+            <responsible position="CFO">Snoop</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="576">
+      <name>gamma</name>
+      <age>53</age>
+    </friend>
+    <contact>
+      <email>gamma@Bae.au</email>
+      <website>http://www.gamma.au</website>
+    </contact>
+    <project id="10">
+      <project_name>tickJohannes</project_name>
+      <details>
+        <description>
+          <location country="TR">
+            <responsible position="COO">Bae</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="325">
+      <name>ring</name>
+      <age>34</age>
+    </friend>
+    <contact>
+      <email>ring@Snooki.ve</email>
+      <website>http://www.ring.ve</website>
+    </contact>
+    <project id="6">
+      <project_name>teslaElvis</project_name>
+      <details>
+        <description>
+          <location country="DE">
+            <responsible position="General Manager">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="562">
+      <name>Johannes</name>
+      <age>88</age>
+    </friend>
+    <contact>
+      <email>Johannes@Madonna.at</email>
+      <website>http://www.Johannes.at</website>
+    </contact>
+    <project id="5">
+      <project_name>teslaFelix</project_name>
+      <details>
+        <description>
+          <location country="US">
+            <responsible position="General Manager">google</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="50">
+      <name>Kevin</name>
+      <age>62</age>
+    </friend>
+    <contact>
+      <email>Kevin@tick.au</email>
+      <website>http://www.Kevin.au</website>
+    </contact>
+    <project id="7">
+      <project_name>Elvisdwag</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="Project Manager">Johannes</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="238">
+      <name>Buzz</name>
+      <age>43</age>
+    </friend>
+    <contact>
+      <email>Buzz@Gustav.at</email>
+      <website>http://www.Buzz.at</website>
+    </contact>
+    <project id="26">
+      <project_name>Kevingamma</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="General Manager">alpha</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="130">
+      <name>Madonna</name>
+      <age>41</age>
+    </friend>
+    <contact>
+      <email>Madonna@Buzz.de</email>
+      <website>http://www.Madonna.de</website>
+    </contact>
+    <project id="11">
+      <project_name>MarkRuediger</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="CFO">Madonna</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="550">
+      <name>Johannes</name>
+      <age>26</age>
+    </friend>
+    <contact>
+      <email>Johannes@tick.tr</email>
+      <website>http://www.Johannes.tr</website>
+    </contact>
+    <project id="3">
+      <project_name>Buzzdwag</project_name>
+      <details>
+        <description>
+          <location country="AT">
+            <responsible position="COO">Felix</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="566">
+      <name>Ruediger</name>
+      <age>53</age>
+    </friend>
+    <contact>
+      <email>Ruediger@Johannes.vi</email>
+      <website>http://www.Ruediger.vi</website>
+    </contact>
+    <project id="23">
+      <project_name>BuzzWiff</project_name>
+      <details>
+        <description>
+          <location country="VI">
+            <responsible position="CFO">trick</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="460">
+      <name>Kevin</name>
+      <age>77</age>
+    </friend>
+    <contact>
+      <email>Kevin@Kevin.gl</email>
+      <website>http://www.Kevin.gl</website>
+    </contact>
+    <project id="15">
+      <project_name>frodoBae</project_name>
+      <details>
+        <description>
+          <location country="AT">
+            <responsible position="CTO">Snoop</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="422">
+      <name>google</name>
+      <age>25</age>
+    </friend>
+    <contact>
+      <email>google@Gustav.au</email>
+      <website>http://www.google.au</website>
+    </contact>
+    <project id="6">
+      <project_name>teslaElvis</project_name>
+      <details>
+        <description>
+          <location country="DE">
+            <responsible position="General Manager">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="750">
+      <name>frodo</name>
+      <age>18</age>
+    </friend>
+    <contact>
+      <email>frodo@gamma.gr</email>
+      <website>http://www.frodo.gr</website>
+    </contact>
+    <project id="7">
+      <project_name>Elvisdwag</project_name>
+      <details>
+        <description>
+          <location country="GR">
+            <responsible position="Project Manager">Johannes</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="706">
+      <name>donald</name>
+      <age>29</age>
+    </friend>
+    <contact>
+      <email>donald@track.vi</email>
+      <website>http://www.donald.vi</website>
+    </contact>
+    <project id="16">
+      <project_name>frodorandy</project_name>
+      <details>
+        <description>
+          <location country="GH">
+            <responsible position="COO">Gustav</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="86">
+      <name>Bae</name>
+      <age>34</age>
+    </friend>
+    <contact>
+      <email>Bae@tick.tr</email>
+      <website>http://www.Bae.tr</website>
+    </contact>
+    <project id="21">
+      <project_name>ringfrodo</project_name>
+      <details>
+        <description>
+          <location country="BJ">
+            <responsible position="COO">Winter</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+  <sadfriend>
+    <friend id="479">
+      <name>Gustav</name>
+      <age>63</age>
+    </friend>
+    <contact>
+      <email>Gustav@Snoop.ve</email>
+      <website>http://www.Gustav.ve</website>
+    </contact>
+    <project id="24">
+      <project_name>WiffMadonna</project_name>
+      <details>
+        <description>
+          <location country="GL">
+            <responsible position="Project Manager">frodo</responsible>
+          </location>
+        </description>
+      </details>
+    </project>
+  </sadfriend>
+</sadfriends>

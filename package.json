@@ -1,0 +1,28 @@
+{
+  "name": "ex5b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "install": "^0.10.1",
+    "md5": "^2.2.1",
+    "npm": "^5.0.3",
+    "request": "^2.81.0",
+    "xml2js": "^0.4.17",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<friend_receivals>
+  <friend_receival>
+    <batch project_name="Buzzdwag">
+      <recipient>randy</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>11</quantity>
+      <weight>29.9111046201747</weight>
+      <arrival>2017-12-03T11:46:00+01:00</arrival>
+      <friend friends_id="398" friends_affiliation="Neighbor"/>
+      <contact friends_id="398">
+        <website>http://www.randy.gr</website>
+        <email>randy@Snoop.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="randyFred">
+      <recipient>Felix</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>12</quantity>
+      <weight>15.3310899023056</weight>
+      <arrival>2017-12-23T02:10:00+01:00</arrival>
+      <friend friends_id="254" friends_affiliation="Colleagues"/>
+      <contact friends_id="254">
+        <website>http://www.Felix.au</website>
+        <email>Felix@dwag.au</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="GustavSnooki">
+      <recipient>Snoop</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>6</quantity>
+      <weight>47.7100908118326</weight>
+      <arrival>2017-10-23T03:24:00+02:00</arrival>
+      <friend friends_id="118" friends_affiliation="Friends"/>
+      <contact friends_id="118">
+        <website>http://www.Snoop.bj</website>
+        <email>Snoop@Mark.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="SnoopBuzz">
+      <recipient>Elvis</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>1</quantity>
+      <weight>31.5756549959522</weight>
+      <arrival>2017-10-05T03:08:00+02:00</arrival>
+      <friend friends_id="498" friends_affiliation="Supplier"/>
+      <contact friends_id="498">
+        <website>http://www.Elvis.ad</website>
+        <email>Elvis@google.ad</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="teslatick">
+      <recipient>tesla</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>19</quantity>
+      <weight>20.3855602246458</weight>
+      <arrival>2017-11-21T12:03:00+01:00</arrival>
+      <friend friends_id="503" friends_affiliation="Neighbor"/>
+      <contact friends_id="503">
+        <website>http://www.tesla.vi</website>
+        <email>tesla@Mark.vi</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="ElvisBae">
+      <recipient>Bae</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>13</quantity>
+      <weight>27.0021026209936</weight>
+      <arrival>2017-12-08T21:21:00+01:00</arrival>
+      <friend friends_id="0" friends_affiliation="Supplier"/>
+      <contact friends_id="0">
+        <website>http://www.Bae.us</website>
+        <email>Bae@frodo.us</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="donalddwag">
+      <recipient>Elvis</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>18</quantity>
+      <weight>44.8013668465215</weight>
+      <arrival>2017-10-14T12:22:00+02:00</arrival>
+      <friend friends_id="558" friends_affiliation="Neighbor"/>
+      <contact friends_id="558">
+        <website>http://www.Elvis.gr</website>
+        <email>Elvis@trick.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="WiffElvis">
+      <recipient>Kevin</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>5</quantity>
+      <weight>48.5585733181648</weight>
+      <arrival>2017-10-08T00:14:00+02:00</arrival>
+      <friend friends_id="160" friends_affiliation="Supplier"/>
+      <contact friends_id="160">
+        <website>http://www.Kevin.gr</website>
+        <email>Kevin@randy.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="frodoElvis">
+      <recipient>Snoop</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>17</quantity>
+      <weight>26.905644071721</weight>
+      <arrival>2017-12-15T11:00:00+01:00</arrival>
+      <friend friends_id="118" friends_affiliation="Friends"/>
+      <contact friends_id="118">
+        <website>http://www.Snoop.bj</website>
+        <email>Snoop@Mark.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="tricktrick">
+      <recipient>Johannes</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>2</quantity>
+      <weight>47.6662352351188</weight>
+      <arrival>2017-10-05T00:07:00+02:00</arrival>
+      <friend friends_id="22" friends_affiliation="Supplier"/>
+      <contact friends_id="22">
+        <website>http://www.Johannes.gh</website>
+        <email>Johannes@Melvin.gh</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="randygoogle">
+      <recipient>alpha</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>15</quantity>
+      <weight>23.0037412223683</weight>
+      <arrival>2017-12-21T13:09:00+01:00</arrival>
+      <friend friends_id="540" friends_affiliation="Colleagues"/>
+      <contact friends_id="540">
+        <website>http://www.alpha.tr</website>
+        <email>alpha@Winter.tr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Gustavtick">
+      <recipient>Felix</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>7</quantity>
+      <weight>48.952398599666</weight>
+      <arrival>2017-11-27T21:58:00+01:00</arrival>
+      <friend friends_id="744" friends_affiliation="Colleagues"/>
+      <contact friends_id="744">
+        <website>http://www.Felix.us</website>
+        <email>Felix@Fred.us</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="MelvinFelix">
+      <recipient>Winter</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>13</quantity>
+      <weight>32.0340193045877</weight>
+      <arrival>2017-10-26T03:00:00+02:00</arrival>
+      <friend friends_id="315" friends_affiliation="Supplier"/>
+      <contact friends_id="315">
+        <website>http://www.Winter.tr</website>
+        <email>Winter@Madonna.tr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Gustavtick">
+      <recipient>tick</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>25</quantity>
+      <weight>49.9326172416001</weight>
+      <arrival>2017-10-25T02:28:00+02:00</arrival>
+      <friend friends_id="600" friends_affiliation="Friends"/>
+      <contact friends_id="600">
+        <website>http://www.tick.at</website>
+        <email>tick@randy.at</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Gustavtick">
+      <recipient>tick</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>25</quantity>
+      <weight>49.9326172416001</weight>
+      <arrival>2017-10-25T02:28:00+02:00</arrival>
+      <friend friends_id="36" friends_affiliation="Colleagues"/>
+      <contact friends_id="36">
+        <website>http://www.tick.bj</website>
+        <email>tick@dwag.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="trickFred">
+      <recipient>randy</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>9</quantity>
+      <weight>33.6548717140837</weight>
+      <arrival>2017-11-13T01:14:00+01:00</arrival>
+      <friend friends_id="609" friends_affiliation="Friends"/>
+      <contact friends_id="609">
+        <website>http://www.randy.us</website>
+        <email>randy@gamma.us</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Johannesfrodo">
+      <recipient>tick</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>7</quantity>
+      <weight>14.2337757857053</weight>
+      <arrival>2017-12-12T02:20:00+01:00</arrival>
+      <friend friends_id="135" friends_affiliation="Colleagues"/>
+      <contact friends_id="135">
+        <website>http://www.tick.ve</website>
+        <email>tick@gamma.ve</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="gammaWiff">
+      <recipient>donald</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>23</quantity>
+      <weight>0.586871201137947</weight>
+      <arrival>2017-12-22T01:06:00+01:00</arrival>
+      <friend friends_id="614" friends_affiliation="Supplier"/>
+      <contact friends_id="614">
+        <website>http://www.donald.gl</website>
+        <email>donald@ring.gl</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="BuzzFelix">
+      <recipient>google</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>5</quantity>
+      <weight>41.1356795720858</weight>
+      <arrival>2017-11-15T02:22:00+01:00</arrival>
+      <friend friends_id="284" friends_affiliation="Friends"/>
+      <contact friends_id="284">
+        <website>http://www.google.at</website>
+        <email>google@donald.at</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="RuedigerKevin">
+      <recipient>Buzz</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>13</quantity>
+      <weight>36.9925128527178</weight>
+      <arrival>2017-10-26T12:17:00+02:00</arrival>
+      <friend friends_id="12" friends_affiliation="Supplier"/>
+      <contact friends_id="12">
+        <website>http://www.Buzz.gr</website>
+        <email>Buzz@Melvin.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Madonnafrodo">
+      <recipient>Mark</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>11</quantity>
+      <weight>21.6911659732687</weight>
+      <arrival>2017-10-06T12:21:00+02:00</arrival>
+      <friend friends_id="753" friends_affiliation="Colleagues"/>
+      <contact friends_id="753">
+        <website>http://www.Mark.de</website>
+        <email>Mark@Snooki.de</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="teslatick">
+      <recipient>Felix</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>21</quantity>
+      <weight>39.9704836323978</weight>
+      <arrival>2017-11-01T11:27:00+01:00</arrival>
+      <friend friends_id="251" friends_affiliation="Supplier"/>
+      <contact friends_id="251">
+        <website>http://www.Felix.tr</website>
+        <email>Felix@Winter.tr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="trackdwag">
+      <recipient>trick</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>3</quantity>
+      <weight>42.0609718597343</weight>
+      <arrival>2017-12-16T21:27:00+01:00</arrival>
+      <friend friends_id="356" friends_affiliation="Friends"/>
+      <contact friends_id="356">
+        <website>http://www.trick.gr</website>
+        <email>trick@Johannes.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="dwagElvis">
+      <recipient>Wiff</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>19</quantity>
+      <weight>24.0380281256917</weight>
+      <arrival>2017-10-21T02:57:00+02:00</arrival>
+      <friend friends_id="412" friends_affiliation="Colleagues"/>
+      <contact friends_id="412">
+        <website>http://www.Wiff.ad</website>
+        <email>Wiff@Bae.ad</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Buzzring">
+      <recipient>gamma</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>20</quantity>
+      <weight>47.027083291339</weight>
+      <arrival>2017-12-12T01:24:00+01:00</arrival>
+      <friend friends_id="754" friends_affiliation="Supplier"/>
+      <contact friends_id="754">
+        <website>http://www.gamma.de</website>
+        <email>gamma@Winter.de</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="SnoopBuzz">
+      <recipient>google</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>8</quantity>
+      <weight>32.2485198091941</weight>
+      <arrival>2017-10-16T12:02:00+02:00</arrival>
+      <friend friends_id="514" friends_affiliation="Supplier"/>
+      <contact friends_id="514">
+        <website>http://www.google.vi</website>
+        <email>google@Mark.vi</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="dwagElvis">
+      <recipient>Wiff</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>19</quantity>
+      <weight>24.0380281256917</weight>
+      <arrival>2017-10-21T02:57:00+02:00</arrival>
+      <friend friends_id="747" friends_affiliation="Neighbor"/>
+      <contact friends_id="747">
+        <website>http://www.Wiff.bj</website>
+        <email>Wiff@Winter.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="GustavSnooki">
+      <recipient>Elvis</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>23</quantity>
+      <weight>21.7887877749064</weight>
+      <arrival>2017-11-23T03:57:00+01:00</arrival>
+      <friend friends_id="616" friends_affiliation="Friends"/>
+      <contact friends_id="616">
+        <website>http://www.Elvis.bj</website>
+        <email>Elvis@Bae.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Felixring">
+      <recipient>google</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>22</quantity>
+      <weight>49.1038056538517</weight>
+      <arrival>2017-11-02T22:42:00+01:00</arrival>
+      <friend friends_id="197" friends_affiliation="Supplier"/>
+      <contact friends_id="197">
+        <website>http://www.google.bj</website>
+        <email>google@tick.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Johannestrack">
+      <recipient>Felix</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>18</quantity>
+      <weight>15.4308686234328</weight>
+      <arrival>2017-11-07T02:47:00+01:00</arrival>
+      <friend friends_id="441" friends_affiliation="Supplier"/>
+      <contact friends_id="441">
+        <website>http://www.Felix.gh</website>
+        <email>Felix@Wiff.gh</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="FredSnooki">
+      <recipient>Winter</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>25</quantity>
+      <weight>10.9752974773986</weight>
+      <arrival>2017-10-25T14:43:00+02:00</arrival>
+      <friend friends_id="477" friends_affiliation="Friends"/>
+      <contact friends_id="477">
+        <website>http://www.Winter.at</website>
+        <email>Winter@Fred.at</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="randyFred">
+      <recipient>Felix</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>0</quantity>
+      <weight>37.1717467804471</weight>
+      <arrival>2017-12-17T01:08:00+01:00</arrival>
+      <friend friends_id="254" friends_affiliation="Colleagues"/>
+      <contact friends_id="254">
+        <website>http://www.Felix.au</website>
+        <email>Felix@dwag.au</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="gammaSnooki">
+      <recipient>Winter</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>0</quantity>
+      <weight>23.980603830641</weight>
+      <arrival>2017-12-06T12:14:00+01:00</arrival>
+      <friend friends_id="686" friends_affiliation="Supplier"/>
+      <contact friends_id="686">
+        <website>http://www.Winter.au</website>
+        <email>Winter@Madonna.au</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="SnookiMadonna">
+      <recipient>Buzz</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>10</quantity>
+      <weight>27.6139733168764</weight>
+      <arrival>2017-12-18T22:21:00+01:00</arrival>
+      <friend friends_id="518" friends_affiliation="Supplier"/>
+      <contact friends_id="518">
+        <website>http://www.Buzz.ad</website>
+        <email>Buzz@Ruediger.ad</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="WiffMark">
+      <recipient>Wiff</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>18</quantity>
+      <weight>13.0735693689423</weight>
+      <arrival>2017-12-28T13:29:00+01:00</arrival>
+      <friend friends_id="190" friends_affiliation="Neighbor"/>
+      <contact friends_id="190">
+        <website>http://www.Wiff.bj</website>
+        <email>Wiff@Buzz.bj</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Snooptrick">
+      <recipient>Johannes</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>21</quantity>
+      <weight>7.02859298816823</weight>
+      <arrival>2017-12-05T21:04:00+01:00</arrival>
+      <friend friends_id="579" friends_affiliation="Friends"/>
+      <contact friends_id="579">
+        <website>http://www.Johannes.gl</website>
+        <email>Johannes@Felix.gl</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Buzzfrodo">
+      <recipient>tick</recipient>
+      <dispatcher>FEDEX</dispatcher>
+      <quantity>21</quantity>
+      <weight>11.5579637946759</weight>
+      <arrival>2017-11-18T02:46:00+01:00</arrival>
+      <friend friends_id="756" friends_affiliation="Friends"/>
+      <contact friends_id="756">
+        <website>http://www.tick.gr</website>
+        <email>tick@randy.gr</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Kevintrack">
+      <recipient>trick</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>11</quantity>
+      <weight>29.6458058600941</weight>
+      <arrival>2017-12-24T01:35:00+01:00</arrival>
+      <friend friends_id="236" friends_affiliation="Supplier"/>
+      <contact friends_id="236">
+        <website>http://www.trick.ve</website>
+        <email>trick@Buzz.ve</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="Ruedigertrick">
+      <recipient>Mark</recipient>
+      <dispatcher>ROYAL MAIL</dispatcher>
+      <quantity>6</quantity>
+      <weight>22.5266024215462</weight>
+      <arrival>2017-10-11T03:03:00+02:00</arrival>
+      <friend friends_id="650" friends_affiliation="Friends"/>
+      <contact friends_id="650">
+        <website>http://www.Mark.at</website>
+        <email>Mark@Kevin.at</email>
+      </contact>
+    </batch>
+  </friend_receival>
+  <friend_receival>
+    <batch project_name="tickKevin">
+      <recipient>Snooki</recipient>
+      <dispatcher>DHL</dispatcher>
+      <quantity>1</quantity>
+      <weight>25.8473915046831</weight>
+      <arrival>2017-12-14T03:31:00+01:00</arrival>
+      <friend friends_id="482" friends_affiliation="Supplier"/>
+      <contact friends_id="482">
+        <website>http://www.Snooki.au</website>
+        <email>Snooki@Madonna.au</email>
+      </contact>
+    </batch>
+  </friend_receival>
+</friend_receivals>
