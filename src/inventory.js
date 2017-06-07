@@ -61,7 +61,7 @@ app.route('/:part(discount|part_name|texture|url)/:piece').get((req, res) => {
   editJSON(req.params.piece, req.params.part, change)
   saveChange(inventory)
 
-
+  res.send()
 
 })
 app.route('/:part(discount|part_name|texture|url)').get((req, res) => {
