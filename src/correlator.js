@@ -179,8 +179,7 @@ app.route('/').get((req,res)=>{
 }).post((req,res)=>{
 
   active.push(body.pid)
-  startProcess(res)
-
+  startProcess()
 
   console.log("Received a post request")
   res.set('CPEE_CALLBACK', 'true')
