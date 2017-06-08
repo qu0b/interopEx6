@@ -48,7 +48,7 @@ var addParts = (add1, add2, add3, add4) => {
 var finishProcess = (callbackurl) => {
 	console.log('sending order');
   let postData = JSON.stringify({
-    msg: 'Hello World!'
+    progress: "finished"
   });
 
   let options = {
@@ -109,13 +109,13 @@ app.use('/*', (req, res, next)=>{
   let favicon=true;
   console.log('The Correlator has received a call');
 
-  // console.log(`HEADERS: ${JSON.stringify(req.headers)}`);
-  // req.on('data', (chunk) => {
-  //   console.log(`BODY: ${chunk}`);
-  // });
-  // req.on('end', () => {
-  //   console.log('No more data in req.');
-  // });
+   console.log(`HEADERS: ${JSON.stringify(req.headers)}`);
+   req.on('data', (chunk) => {
+   console.log(`BODY: ${chunk}`);
+   });
+   req.on('end', () => {
+     console.log('No more data in req.');
+   });
 
   let logExact ={
       file: "correlator.js",
@@ -171,14 +171,66 @@ app.use('/*', (req, res, next)=>{
   next()
 })
 
-var active = [];
+var createOrder () {
+
+}
+var orderGen = (discount, part_name, texture, url) =>
+{
+  let order = {
+    id : Math.random()
+    discount: discount,
+    part_name: part_name,
+    texture: texture,
+    url: url
+  }
+  return order
+}
+
 
 app.route('/').get((req,res)=>{
   console.log('received a get request');
   res.send('Hallo World!')
 }).post((req,res)=>{
 
-  active.push(body.pid)
+for (var body in req.body) {
+  let orders=[];
+  if (req.body.hasOwnProperty(body)) {
+    let count = 0;
+    if(body === 'pid'){
+
+    }
+    if(body === 'discount') {
+      orders.push(req.body[body])
+    }
+    if(body === 'part_name') {
+      orders.push(req.body[body])
+    }
+    if(body === 'texture') {
+      orders.push(req.body[body])
+    }
+    if(body === 'url') {
+      orders.push(req.body[body])
+    }
+    if(orders.length===4){
+      orderGen(...orders)
+      orders=[]
+    }
+
+    if(body === 'progress') {
+      if(req.body[body]==='END')
+      {
+        // TODO: get process id
+        finishProcess('pid')
+      }
+    }
+
+  }
+}
+
+//does the pid exist, if it does not wait.
+  //req.body.pid
+//
+  //active.push(req.body.pid)
   startProcess()
 
   console.log("Received a post request")
