@@ -50,177 +50,182 @@ var addParts = (add1, add2, add3, add4) => {
 }
 
 var finishProcess = (progress, pid) => {
-        let callback=callbackMap.get(pid);
-        console.log('callback: ', callback);
-        let callbackurl = callback[callback.length-1];
-        console.log('sending order');
-        console.log(callbackurl);
+  let callback = callbackMap.get(pid);
+  console.log('callback: ', callback);
+  let callbackurl = callback[callback.length - 1];
+  console.log('sending order');
+  console.log(callbackurl);
 
-        callback.pop()
-        callbackMap.set(pid, callback)
-        var postData=JSON.stringify(progress);
+  callback.pop()
+  callbackMap.set(pid, callback)
+  var postData = JSON.stringify(progress);
 
-        let options = {
-          host: callbackurl.slice(callbackurl.indexOf(":") + 3, callbackurl.lastIndexOf(":")),
-          port: callbackurl.slice(callbackurl.lastIndexOf(":") + 1, callbackurl.lastIndexOf(":") + 5),
-          path: callbackurl.slice(callbackurl.lastIndexOf(":") + 5),
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-            'Content-Length': Buffer.byteLength(postData)
-          }
-        }
-
-        let request = http.request(options, function(response) {
-          console.log('STATUS: ' + response.statusCode);
-          console.log('HEADERS: ' + JSON.stringify(response.headers));
-          response.setEncoding('utf8');
-          response.on('data', function (chunk) {
-            console.log('BODY: ' + chunk);
-
-          });
-
-        });
-        request.write(postData);
-        request.end();
+  let options = {
+    host: callbackurl.slice(callbackurl.indexOf(":") + 3, callbackurl.lastIndexOf(":")),
+    port: callbackurl.slice(callbackurl.lastIndexOf(":") + 1, callbackurl.lastIndexOf(":") + 5),
+    path: callbackurl.slice(callbackurl.lastIndexOf(":") + 5),
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(postData)
     }
+  }
 
-    var startProcess = () => {
-      var content = {
-        xml: {
-          value: fs.createReadStream('./../xml/process.xml'),
-          options: {
-            contentType: 'text/xml',
-            filename: 'filename.xml'
-          }
-        }
-      };
-      request.post({
-        url: 'http://cpee.org:9296',
-        formData: content
-      }, (err, httpResponse, body) => {
-        if (err) {
-          return console.log(err);
-        } else return console.log(body);
-      });
-    }
+  let request = http.request(options, function(response) {
+    console.log('STATUS: ' + response.statusCode);
+    console.log('HEADERS: ' + JSON.stringify(response.headers));
+    response.setEncoding('utf8');
+    response.on('data', function(chunk) {
+      console.log('BODY: ' + chunk);
 
+    });
 
+  });
+  request.write(postData);
+  request.end();
+}
 
-    app.use('/*', (req, res, next) => {
-      let favicon = true;
-      console.log('The Correlator has received a call');
-
-      let logExact = {
-        file: "correlator.js",
-        contentType: req.get('Content-Type'),
-        acceptEncoding: req.get('Accept-Encoding'),
-        accept: req.get('Accept'),
-        userAgent: req.get('User-Agent'),
-        contentLength: req.get('Content-Length'),
-        Host: req.get('Host'),
-        method: req.method,
-        url: req.url,
-        param: req.params,
-        body: req.body,
-        query: req.query,
-        timestamp: Math.floor(new Date() / 1000),
-        cpee: {
-          cpeeBase: req.get('Cpee_base'),
-          cpeeInstance: req.get('Cpee_instance'),
-          cpeeCallback: req.get('Cpee_callback'),
-          cpeeActivity: req.get('Cpee_activity'),
-          cpeeLabel: req.get('Cpee_label'),
-          cpeeAttrInfo: req.get('Cpee_attr_info'),
-          cpeeAttrModeltype: req.get('Cpee_attr_modeltype')
-
-        }
+var startProcess = () => {
+  var content = {
+    xml: {
+      value: fs.createReadStream('./../xml/process.xml'),
+      options: {
+        contentType: 'text/xml',
+        filename: 'filename.xml'
       }
+    }
+  };
+  request.post({
+    url: 'http://cpee.org:9296',
+    formData: content
+  }, (err, httpResponse, body) => {
+    if (err) {
+      return console.log(err);
+    } else return console.log(body);
+  });
+}
 
-      for (var fav in logExact) {
-        if (logExact.hasOwnProperty(fav)) {
-          if (fav == 'param') {
-            for (var par in logExact[fav]) {
-              if (fav.hasOwnProperty(par)) {
-                if (logExact[fav][par] === 'favicon.ico') {
-                  favicon = false
-                }
-              }
+
+
+app.use('/*', (req, res, next) => {
+  let favicon = true;
+  console.log('The Correlator has received a call');
+
+  let logExact = {
+    file: "correlator.js",
+    contentType: req.get('Content-Type'),
+    acceptEncoding: req.get('Accept-Encoding'),
+    accept: req.get('Accept'),
+    userAgent: req.get('User-Agent'),
+    contentLength: req.get('Content-Length'),
+    Host: req.get('Host'),
+    method: req.method,
+    url: req.url,
+    param: req.params,
+    body: req.body,
+    query: req.query,
+    timestamp: Math.floor(new Date() / 1000),
+    cpee: {
+      cpeeBase: req.get('Cpee_base'),
+      cpeeInstance: req.get('Cpee_instance'),
+      cpeeCallback: req.get('Cpee_callback'),
+      cpeeActivity: req.get('Cpee_activity'),
+      cpeeLabel: req.get('Cpee_label'),
+      cpeeAttrInfo: req.get('Cpee_attr_info'),
+      cpeeAttrModeltype: req.get('Cpee_attr_modeltype')
+
+    }
+  }
+
+  for (var fav in logExact) {
+    if (logExact.hasOwnProperty(fav)) {
+      if (fav == 'param') {
+        for (var par in logExact[fav]) {
+          if (fav.hasOwnProperty(par)) {
+            if (logExact[fav][par] === 'favicon.ico') {
+              favicon = false
             }
-
           }
         }
+
       }
+    }
+  }
 
-      if (favicon) {
-        fs.appendFile('./log/logCorrelator.json', JSON.stringify(logExact, null, '  '), err => {
-          if (err) throw err;
-        });
+  if (favicon) {
+    fs.appendFile('./log/logCorrelator.json', JSON.stringify(logExact, null, '  '), err => {
+      if (err) throw err;
+    });
+  }
+  next()
+})
+
+
+
+app.route('/').get((req, res) => {
+  console.log('received a get request');
+  res.send('Hallo World!')
+}).post((req, res) => {
+  console.log("Received a post request")
+  //callback
+  let cb = req.get('Cpee_callback')
+  let pid = req.body.pid
+  console.log('callbackurl:', cb);
+  console.log('pid', req.body.pid);
+  if (cb && pid) {
+
+    console.log('pid with callback');
+
+    if (callbackMap.has(pid)) {
+      let call = callbackMap.get(pid)
+      callback.push(cb)
+
+      callbackMap.set(pid, call)
+    }
+    else {
+      callbackMap.set(pid, [cb]);
+    }
+
+  }
+
+  if (pid && cb == undefined) {
+    console.log('pid without callback');
+    finishProcess(req.body, pid)
+  }
+
+  let orders = [];
+  for (let body in req.body) {
+
+    if (req.body.hasOwnProperty(body)) {
+
+      if (body === 'discount') {
+        orders.push(req.body[body])
       }
-      next()
-    })
-
-
-
-    app.route('/').get((req, res) => {
-      console.log('received a get request');
-      res.send('Hallo World!')
-    }).post((req, res) => {
-      console.log("Received a post request")
-      //callback
-      let cb = req.get('Cpee_callback')
-      let pid = req.body.pid
-      console.log('callbackurl:', cb);
-      console.log('pid', req.body.pid);
-      if (cb && pid) {
-
-        console.log('pid with callback');
-
-        let callback = callbackMap.get(pid)
-        callback.push(cb)
-
-        callbackMap.has(pid) ? callbackMap.set(pid, callback) : callbackMap.set(pid, [cb]);
-        console.log(callbackMap.get(pid));
+      if (body === 'part_name') {
+        orders.push(req.body[body])
       }
-
-      if (pid && cb == undefined) {
-        console.log('pid without callback');
-        finishProcess(req.body, pid)
+      if (body === 'texture') {
+        orders.push(req.body[body])
       }
-
-      let orders = [];
-      for (let body in req.body) {
-
-        if (req.body.hasOwnProperty(body)) {
-
-          if (body === 'discount') {
-            orders.push(req.body[body])
-          }
-          if (body === 'part_name') {
-            orders.push(req.body[body])
-          }
-          if (body === 'texture') {
-            orders.push(req.body[body])
-          }
-          if (body === 'url') {
-            orders.push(req.body[body])
-          }
-        }
+      if (body === 'url') {
+        orders.push(req.body[body])
       }
+    }
+  }
 
-      if (orders.length === 4) {
-        addParts(orders[0], orders[1], orders[2], orders[3]);
-        startProcess();
-        orders = []
-      }
+  if (orders.length === 4) {
+    addParts(orders[0], orders[1], orders[2], orders[3]);
+    startProcess();
+    orders = []
+  }
 
-      res.set('CPEE_CALLBACK', 'true')
-      res.send();
-    })
+  res.set('CPEE_CALLBACK', 'true')
+  res.send();
+})
 
 
 
-    var port = 9029
-    app.listen(port, function() {
-      console.log('Correlator listening on port ' + port)
-    })
+var port = 9029
+app.listen(port, function() {
+  console.log('Correlator listening on port ' + port)
+})
