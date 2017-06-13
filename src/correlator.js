@@ -56,7 +56,7 @@ var finishProcess = (progress, pid) => {
         let callbackurl = callback[callback.length-1];
         console.log('sending order');
         console.log(callbackurl);
-        console.log('poping: ',callbackMap.get(pid), callbackMap.get(pid)).pop());
+        console.log('get: ',callbackMap.get(pid),' pop: ', Array(callbackMap.get(pid)).pop(), 'conversion: ',Array(callbackMap.get(pid)));
         callbackMap.set(pid, Array(callbackMap.get(pid)).pop());
         var postData=JSON.stringify(progress);
 
