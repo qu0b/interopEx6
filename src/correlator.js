@@ -50,12 +50,12 @@ var addParts = (add1, add2, add3, add4) => {
 }
 
 var finishProcess = (progress, pid) => {
-        console.log("getting pid: ", pid, callbackMap.toString());
-        let callback=callbackMap.get(pid)
+        console.log("getting pid: ", pid);
+        let callback=callbackMap.get(pid);
         let callbackurl=callback[callback.length-1]
         console.log('sending order');
         console.log(callbackurl);
-        callbackMap.set(pid, callbackMap.get(pid).pop());
+        callbackMap.set(pid, Array(callbackMap.get(pid)).pop());
         var postData=JSON.stringify(progress);
 
         let options = {
@@ -175,7 +175,7 @@ var finishProcess = (progress, pid) => {
       if (cb && pid) {
 
         console.log('pid with callback');
-        callbackMap.has(pid) ? callbackMap.set(pid, callbackMap.get(pid).push(cb)) : callbackMap.set(pid, [cb]);
+        callbackMap.has(pid) ? callbackMap.set(pid, Array(callbackMap.get(pid)).push(cb)) : callbackMap.set(pid, [cb]);
 
       }
 
