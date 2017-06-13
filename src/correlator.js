@@ -54,9 +54,7 @@ var finishProcess = (progress, callbackurl, pid) => {
     //new Promise((resolve, reject) => {
         console.log('sending order');
         console.log(callbackurl);
-        let postData = JSON.stringify({
-          'progress': progress
-        });
+        let postData = JSON.stringify(progress);
 
         let options = {
           host: callbackurl.slice(callbackurl.indexOf(":") + 3, callbackurl.lastIndexOf(":")),
