@@ -77,10 +77,6 @@ var finishProcess = (progress, callbackurl, pid) => {
           });
 
         });
-
-        req.on('error', (e) => {
-          console.log(`problem with request: ${e.message}`);
-        });
         request.write(postData);
         request.end();
     }
