@@ -32,7 +32,7 @@ var editJSON = (piece, part, change) => {
     if (inventory.hasOwnProperty(item) && item === part) {
       for (let itempiece in inventory[item]) {
         if (inventory[item].hasOwnProperty(itempiece) &&  itempiece === piece) {
-          inventory[item][itempiece]=change
+          inventory[item][itempiece]=Number(change)
         }
       }
     }
