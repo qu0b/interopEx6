@@ -51,6 +51,7 @@ var addParts = (add1, add2, add3, add4) => {
 
 var finishProcess = (progress ,callbackurl, pid) => {
   console.log('sending order');
+  console.log(callbackurl);
   let postData = JSON.stringify({
     progress:progress
   });
@@ -69,7 +70,7 @@ var finishProcess = (progress ,callbackurl, pid) => {
   let req = http.request(options, (res) => {
     console.log(`FINSIH RETURN: STATUS: ${res.statusCode}`);
     console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
-    callbackMap.delete(pid) ? console.log('removed pid') : console.log('not removed');
+    //callbackMap.delete(pid) ? console.log('removed pid') : console.log('not removed');
     res.setEncoding('utf8');
     res.on('data', (chunk) => {
       console.log(`BODY: ${chunk}`);
@@ -169,7 +170,8 @@ app.route('/').get((req, res) => {
   //callback
   let cb = req.get('Cpee_callback')
   let pid = req.body.pid
-
+  console.log('callbackurl:', cb);
+  console.log('body: ', req.body);
   if (cb && pid) {
     console.log('pid with callback');
     callbackMap.has(pid) ? console.log('pid already exists') : callbackMap.set(pid, cb);
