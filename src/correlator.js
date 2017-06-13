@@ -61,7 +61,8 @@ var finishProcess = (progress, callbackurl, pid) => {
           path: callbackurl.slice(callbackurl.lastIndexOf(":") + 5),
           method: 'PUT',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Content-Length': Buffer.byteLength(postData)
           }
         }
         console.log('options', options);
