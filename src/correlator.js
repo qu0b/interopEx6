@@ -51,7 +51,7 @@ var addParts = (add1, add2, add3, add4) => {
 
 var finishProcess = (progress, callbackurl, pid) => {
 
-    new Promise((resolve, reject) => {
+    //new Promise((resolve, reject) => {
         console.log('sending order');
         console.log(callbackurl);
         let postData = JSON.stringify({
@@ -81,15 +81,15 @@ var finishProcess = (progress, callbackurl, pid) => {
           });
           res.on('end', () => {
             console.log('No more data in response.');
-            resolve();
+            //resolve();
           });
         });
 
         req.on('error', (e) => {
           console.log(`problem with request: ${e.message}`);
-          reject();
+          //reject();
         });
-      })
+      //})
     }
 
     var startProcess = () => {
@@ -188,9 +188,7 @@ var finishProcess = (progress, callbackurl, pid) => {
       if (pid && cb == undefined) {
         console.log('pid without callback');
 
-        finishProcess(req.body, callbackMap.get(pid), pid).then(() => {
-          console.log('sucess');
-        })
+        finishProcess(req.body, callbackMap.get(pid), pid
       }
 
       let orders = [];
