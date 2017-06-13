@@ -40,10 +40,10 @@ var addParts = (add1, add2, add3, add4) => {
   let doc = readProcessTemplate()
 
   let iterator = doc.firstChild.firstChild.nextSibling.firstChild.nextSibling
-  iterator.firstChild.data = '/' + part1 + add1
-  iterator.nextSibling.nextSibling.firstChild.data = '/' + part2 + add2
-  iterator.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part3 + add3
-  iterator.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part4 + add4
+  iterator.firstChild.data = '/' + part1 + '/' + add1
+  iterator.nextSibling.nextSibling.firstChild.data = '/' + part2 + '/' + add2
+  iterator.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part3 + '/' + add3
+  iterator.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part4 + '/' + add4
 
   fs.writeFileSync('./../xml/process.xml', doc.toString());
 }
