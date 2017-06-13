@@ -55,7 +55,7 @@ var finishProcess = (progress, callbackurl, pid) => {
         console.log('sending order');
         console.log(callbackurl);
         let postData = JSON.stringify({
-          progress: progress
+          'progress': progress
         });
 
         let options = {
@@ -69,6 +69,7 @@ var finishProcess = (progress, callbackurl, pid) => {
           }
         }
         console.log('options', options);
+        console.log('data', postData);
 
         let req = http.request(options, (res) => {
           console.log(`FINSIH RETURN: STATUS: ${res.statusCode}`);
