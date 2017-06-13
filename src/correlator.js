@@ -179,9 +179,9 @@ app.route('/').get((req, res) => {
     console.log('pid without callback');
     finishProcess(callbackMap.get(pid), pid);
   }
-
+let orders = [];
   for (let body in req.body) {
-    let orders = [];
+
     if (req.body.hasOwnProperty(body)) {
 
       if (body === 'discount') {
