@@ -50,11 +50,10 @@ var addParts = (add1, add2, add3, add4) => {
 }
 
 var finishProcess = (progress, callbackurl, pid) => {
-
-    //new Promise((resolve, reject) => {
         console.log('sending order');
         console.log(callbackurl);
-        let postData = JSON.stringify(progress);
+
+        var postData=JSON.stringify(progress);
 
         let options = {
           host: callbackurl.slice(callbackurl.indexOf(":") + 3, callbackurl.lastIndexOf(":")),
@@ -62,33 +61,28 @@ var finishProcess = (progress, callbackurl, pid) => {
           path: callbackurl.slice(callbackurl.lastIndexOf(":") + 5),
           method: 'PUT',
           headers: {
-            'Content-Type': 'application/json',
-            'Content-Length': Buffer.byteLength(postData)
+            'Content-Type': 'application/json'
           }
         }
         console.log('options', options);
         console.log('data', postData);
 
-        let req = http.request(options, (res) => {
-          console.log(`FINSIH RETURN: STATUS: ${res.statusCode}`);
+        let request = http.request(options, function(response) {
+          console.log('STATUS: ' + response.statusCode);
+          console.log('HEADERS: ' + JSON.stringify(response.headers));
+          response.setEncoding('utf8');
+          response.on('data', function (chunk) {
+            console.log('BODY: ' + chunk);
 
-          console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
-          //callbackMap.delete(pid) ? console.log('removed pid') : console.log('not removed');
-          res.setEncoding('utf8');
-          res.on('data', (chunk) => {
-            console.log(`BODY: ${chunk}`);
           });
-          res.on('end', () => {
-            console.log('No more data in response.');
-            //resolve();
-          });
+
         });
 
         req.on('error', (e) => {
           console.log(`problem with request: ${e.message}`);
-          //reject();
         });
-      //})
+        request.write(postData);
+        request.end();
     }
 
     var startProcess = () => {
