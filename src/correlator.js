@@ -10,10 +10,13 @@ var router = express.Router()
 var http = require('http')
 var md5 = require('md5');
 var request = require('request');
-var stream = require('stream')
+var stream = require('stream');
+var callbackMap = new Map();
 
 app.set('json spaces', 2)
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
 app.use(bodyParser.json())
 
 var part1 = "http://abgabe.cs.univie.ac.at:9027/discount"
@@ -36,35 +39,36 @@ var readProcessTemplate = () => {
 var addParts = (add1, add2, add3, add4) => {
   let doc = readProcessTemplate()
 
-   let iterator = doc.firstChild.firstChild.nextSibling.firstChild.nextSibling
-   iterator.firstChild.data = '/' + part1+add1
-   iterator.nextSibling.nextSibling.firstChild.data = '/' +part2+add2
-   iterator.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' +part3+add3
-   iterator.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' +part4+add4
+  let iterator = doc.firstChild.firstChild.nextSibling.firstChild.nextSibling
+  iterator.firstChild.data = '/' + part1 + add1
+  iterator.nextSibling.nextSibling.firstChild.data = '/' + part2 + add2
+  iterator.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part3 + add3
+  iterator.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part4 + add4
 
-   fs.writeFileSync('./../xml/process.xml',doc.toString());
+  fs.writeFileSync('./../xml/process.xml', doc.toString());
 }
 
-var finishProcess = (callbackurl) => {
-	console.log('sending order');
+var finishProcess = (callbackurl, pid) => {
+  console.log('sending order');
   let postData = JSON.stringify({
     progress: "finished"
   });
 
   let options = {
-    host:callbackurl.slice(callbackurl.indexOf(":")+3, callbackurl.lastIndexOf(":")),
-    port:callbackurl.slice(callbackurl.lastIndexOf(":")+1, callbackurl.lastIndexOf(":")+5),
-    path:callbackurl.slice(callbackurl.lastIndexOf(":")+5),
+    host: callbackurl.slice(callbackurl.indexOf(":") + 3, callbackurl.lastIndexOf(":")),
+    port: callbackurl.slice(callbackurl.lastIndexOf(":") + 1, callbackurl.lastIndexOf(":") + 5),
+    path: callbackurl.slice(callbackurl.lastIndexOf(":") + 5),
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
       'Content-Length': Buffer.byteLength(postData)
     }
-  };
+  }
 
   let req = http.request(options, (res) => {
-    console.log(`STATUS: ${res.statusCode}`);
+    console.log(`FINSIH RETURN: STATUS: ${res.statusCode}`);
     console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
+    callbackMap.delete(pid) ? console.log('removed pid') : console.log('not removed');
     res.setEncoding('utf8');
     res.on('data', (chunk) => {
       console.log(`BODY: ${chunk}`);
@@ -79,79 +83,65 @@ var finishProcess = (callbackurl) => {
   });
 }
 
-
-
 var startProcess = () => {
-  addParts(49, "Kindle Torx", "smooth", "Madonnatesla")
   var content = {
-      xml: {
-        value: fs.createReadStream('./../xml/process.xml'),
-        options: {
-          contentType: 'text/xml',
-          filename: 'filename.xml'
-        }
+    xml: {
+      value: fs.createReadStream('./../xml/process.xml'),
+      options: {
+        contentType: 'text/xml',
+        filename: 'filename.xml'
       }
-    };
-    request.post(
-      {
-        url: 'http://cpee.org:9296', formData: content
-    },  (err, httpResponse, body) => {
-      if (err) {
-        return console.log(err);
-      }
-      else return console.log(body);
-    });
+    }
+  };
+  request.post({
+    url: 'http://cpee.org:9296',
+    formData: content
+  }, (err, httpResponse, body) => {
+    if (err) {
+      return console.log(err);
+    } else return console.log(body);
+  });
 }
 
 
 
-app.use('/*', (req, res, next)=>{
-  let favicon=true;
+app.use('/*', (req, res, next) => {
+  let favicon = true;
   console.log('The Correlator has received a call');
 
-   console.log(`HEADERS: ${JSON.stringify(req.headers)}`);
-   req.on('data', (chunk) => {
-   console.log(`BODY: ${chunk}`);
-   });
-   req.on('end', () => {
-     console.log('No more data in req.');
-   });
+  let logExact = {
+    file: "correlator.js",
+    contentType: req.get('Content-Type'),
+    acceptEncoding: req.get('Accept-Encoding'),
+    accept: req.get('Accept'),
+    userAgent: req.get('User-Agent'),
+    contentLength: req.get('Content-Length'),
+    Host: req.get('Host'),
+    method: req.method,
+    url: req.url,
+    param: req.params,
+    body: req.body,
+    query: req.query,
+    timestamp: Math.floor(new Date() / 1000),
+    cpee: {
+      cpeeBase: req.get('Cpee_base'),
+      cpeeInstance: req.get('Cpee_instance'),
+      cpeeCallback: req.get('Cpee_callback'),
+      cpeeActivity: req.get('Cpee_activity'),
+      cpeeLabel: req.get('Cpee_label'),
+      cpeeAttrInfo: req.get('Cpee_attr_info'),
+      cpeeAttrModeltype: req.get('Cpee_attr_modeltype')
 
-  let logExact ={
-      file: "correlator.js",
-      contentType: req.get('Content-Type'),
-      acceptEncoding: req.get('Accept-Encoding'),
-      accept: req.get('Accept'),
-      userAgent: req.get('User-Agent'),
-      contentLength: req.get('Content-Length'),
-      Host: req.get('Host'),
-      method: req.method,
-      url: req.url,
-      param: req.params,
-      body: req.body,
-      timestamp: Math.floor(new Date() / 1000),
-      cpee: {
-        cpeeBase: req.get('Cpee_base'),
-        cpeeInstance: req.get('Cpee_instance'),
-        cpeeCallback: req.get('Cpee_callback'),
-        cpeeActivity: req.get('Cpee_activity'),
-        cpeeLabel: req.get('Cpee_label'),
-        cpeeAttrInfo: req.get('Cpee_attr_info'),
-        cpeeAttrModeltype: req.get('Cpee_attr_modeltype')
-
-      },
-      active: true,
-      progress: 0
+    }
   }
 
   for (var fav in logExact) {
     if (logExact.hasOwnProperty(fav)) {
-      if (fav=='param') {
+      if (fav == 'param') {
         for (var par in logExact[fav]) {
           if (fav.hasOwnProperty(par)) {
-            if(logExact[fav][par]==='favicon.ico')
-            {
-              favicon=false
+            if (logExact[fav][par] === 'favicon.ico') {
+              favicon = false
             }
           }
         }
@@ -160,88 +150,67 @@ app.use('/*', (req, res, next)=>{
     }
   }
 
-  if(favicon){
-    // fs.appendFile('log.json', JSON.stringify(log, null, '  ') , err => {
-    // if (err) throw err;
-    // });
-    fs.appendFile('./log/logCorrelator.json', JSON.stringify(logExact, null, '  ') , err => {
-    if (err) throw err;
+  if (favicon) {
+    fs.appendFile('./log/logCorrelator.json', JSON.stringify(logExact, null, '  '), err => {
+      if (err) throw err;
     });
   }
   next()
 })
 
-var createOrder = () => {
-
-}
-var orderGen = (discount, part_name, texture, url) =>
-{
-  let order = {
-    id : Math.random()
-    discount: discount,
-    part_name: part_name,
-    texture: texture,
-    url: url
-  }
-  return order
-}
 
 
-app.route('/').get((req,res)=>{
+app.route('/').get((req, res) => {
   console.log('received a get request');
   res.send('Hallo World!')
-}).post((req,res)=>{
+}).post((req, res) => {
+  console.log("Received a post request")
+  //callback
+  let cb = req.get('Cpee_callback')
+  let pid = req.body.pid
 
-for (var body in req.body) {
-  let orders=[];
-  if (req.body.hasOwnProperty(body)) {
-    let count = 0;
-    if(body === 'pid'){
-
-    }
-    if(body === 'discount') {
-      orders.push(req.body[body])
-    }
-    if(body === 'part_name') {
-      orders.push(req.body[body])
-    }
-    if(body === 'texture') {
-      orders.push(req.body[body])
-    }
-    if(body === 'url') {
-      orders.push(req.body[body])
-    }
-    if(orders.length===4){
-      orderGen(...orders)
-      orders=[]
-    }
-
-    if(body === 'progress') {
-      if(req.body[body]==='END')
-      {
-        // TODO: get process id
-        finishProcess('pid')
-      }
-    }
+  if (cb && pid) {
+    console.log('pid with callback');
+    map.has(pid) ? console.log('pid already exists') : map.set(pid, cb);
 
   }
-}
 
-//does the pid exist, if it does not wait.
-  //req.body.pid
-//
-  //active.push(req.body.pid)
-  startProcess()
+  if(pid && !!cb){
+    console.log('pid without callback');
+    finishProcess(map.get(pid), pid);
+  }
 
-  console.log("Received a post request")
+  for (let body in req.body) {
+    let orders = [];
+    if (req.body.hasOwnProperty(body)) {
+
+      if (body === 'discount') {
+        orders.push(req.body[body])
+      }
+      if (body === 'part_name') {
+        orders.push(req.body[body])
+      }
+      if (body === 'texture') {
+        orders.push(req.body[body])
+      }
+      if (body === 'url') {
+        orders.push(req.body[body])
+      }
+    }
+  }
+  console.log('order length', orders.length);
+
+  if (orders.length === 4) {
+    addParts(...orders);
+    startProcess();
+    console.log('starting process');
+    orders = []
+  }
+
   res.set('CPEE_CALLBACK', 'true')
   res.send();
 })
 
-app.route('/startProcess').get((req, res)=>{
-  startProcess(res)
-  //res.send("starting");
-})
 
 
 var port = 9029
