@@ -1,0 +1,241 @@
+{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "116",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Kontakt aufgenommen",
+    "Prozent": 5,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862893,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "115",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Gegenstand suchen",
+    "Prozent": 15,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862899,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "120",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Gegenstand ausgewaehlt",
+    "Prozent": 30,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862905,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "117",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Detailierte Auswahl",
+    "Prozent": 50,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862911,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "115",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Rabatt verhandeln",
+    "Prozent": 75,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862918,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "112",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Rabatt erlangt",
+    "Prozent": 80,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "INTERMEDIATE"
+  },
+  "timestamp": 1496862924,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "107",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "fortschritt": "Produkt unterwegs",
+    "Prozent": 100,
+    "pid": "d4efb3760859146ab475e0926ae7fc52",
+    "progress": "END"
+  },
+  "timestamp": 1496862931,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/x-www-form-urlencoded",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "36",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "pid": "d4efb3760859146ab475e0926ae7fc52"
+  },
+  "timestamp": 1496862932,
+  "cpee": {
+    "cpeeBase": "http://coruscant.wst.univie.ac.at:9298",
+    "cpeeInstance": "http://coruscant.wst.univie.ac.at:9298/318",
+    "cpeeCallback": "http://coruscant.wst.univie.ac.at:9298/318/callbacks/7063a4d24d36ac46e3eea8834b27e6cd",
+    "cpeeActivity": "a4",
+    "cpeeLabel": "Warten auf Fortschritt",
+    "cpeeAttrInfo": "Stefan Starflinger 1209919",
+    "cpeeAttrModeltype": "CPEE"
+  },
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/x-www-form-urlencoded",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "36",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "pid": "81574bccae7c24829fb6fe077cfab5dd"
+  },
+  "timestamp": 1496863802,
+  "cpee": {
+    "cpeeBase": "http://cpee.org:9298",
+    "cpeeInstance": "http://cpee.org:9298/123456",
+    "cpeeCallback": "http://cpee.org:9298/194/callbacks/22b728c475d6f70ec970ce0a130a22fa",
+    "cpeeActivity": "a1",
+    "cpeeLabel": "Wir werden warten",
+    "cpeeAttrInfo": "produktion",
+    "cpeeAttrModeltype": "CPEE"
+  },
+  "active": true,
+  "progress": 0
+}{
+  "file": "correlator.js",
+  "contentType": "application/json",
+  "acceptEncoding": "gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+  "accept": "*/*",
+  "userAgent": "Ruby",
+  "contentLength": "79",
+  "Host": "abgabe.cs.univie.ac.at:9029",
+  "method": "POST",
+  "url": "/",
+  "param": {
+    "0": ""
+  },
+  "body": {
+    "discount": "77",
+    "part_name": "White_Lamp",
+    "texture": "rough",
+    "url": "trickgamma"
+  },
+  "timestamp": 1496863802,
+  "cpee": {},
+  "active": true,
+  "progress": 0
+}
