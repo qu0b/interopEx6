@@ -89,8 +89,8 @@ var finishProcess = (progress, callbackurl, pid) => {
           console.log(`problem with request: ${e.message}`);
           reject();
         });
-      }
-    })
+      })
+    }
 
     var startProcess = () => {
       var content = {
