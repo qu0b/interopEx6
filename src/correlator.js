@@ -171,13 +171,13 @@ app.route('/').get((req, res) => {
 
   if (cb && pid) {
     console.log('pid with callback');
-    map.has(pid) ? console.log('pid already exists') : map.set(pid, cb);
+    callbackMap.has(pid) ? console.log('pid already exists') : callbackMap.set(pid, cb);
 
   }
 
   if(pid && !!cb){
     console.log('pid without callback');
-    finishProcess(map.get(pid), pid);
+    finishProcess(callbackMap.get(pid), pid);
   }
 
   for (let body in req.body) {

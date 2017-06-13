@@ -39,5 +39,7 @@ app.get('/', (req, res, next) => {
 
 
 var port = 9023
+
 app.listen(port, function() {
+  console.log('customer listening on port 9023');
 })
