@@ -45,6 +45,8 @@ var addParts = (add1, add2, add3, add4) => {
   iterator.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part3 + '/' + add3
   iterator.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.firstChild.data = '/' + part4 + '/' + add4
 
+  console.log('process: ',doc.toString());
+
   fs.writeFileSync('./../xml/process.xml', doc.toString());
 }
 
