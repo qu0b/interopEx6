@@ -1,9 +1,9 @@
 {
   "discount": {
-    "23": "9000",
+    "23": 90000,
     "31": 100000,
     "40": 100000,
-    "49": "99999",
+    "49": 99999,
     "51": 100000,
     "77": 100000,
     "86": 100000
@@ -15,13 +15,13 @@
     "Kindle_LED": 100000,
     "Wood_Basswood": 100000,
     "White_Lamp": 100000,
-    "Kindle_Torx": "99999",
+    "Kindle_Torx": 99999,
     "Glue_Book": 100000
   },
   "texture": {
     "flat": 100000,
     "rough": 100000,
-    "smooth": "99999",
+    "smooth": 99999,
     "rippled": 100000,
     "bumpy": 100000,
     "soft": 100000,
@@ -29,7 +29,7 @@
   },
   "url": {
     "WinterGustav": 100000,
-    "Madonnatesla": "99999",
+    "Madonnatesla": 99999,
     "JohannesBae": 100000,
     "trackWinter": 100000,
     "trickgamma": 100000,
