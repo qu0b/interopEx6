@@ -50,10 +50,10 @@ var addParts = (add1, add2, add3, add4) => {
   fs.writeFileSync('./../xml/process.xml', doc.toString());
 }
 
-var finishProcess = (callbackurl, pid) => {
+var finishProcess = (progress ,callbackurl, pid) => {
   console.log('sending order');
   let postData = JSON.stringify({
-    progress: "finished"
+    progress:progress
   });
 
   let options = {
@@ -179,7 +179,7 @@ app.route('/').get((req, res) => {
 
   if(pid && !!cb){
     console.log('pid without callback');
-    finishProcess(callbackMap.get(pid), pid);
+    finishProcess(req.body ,callbackMap.get(pid), pid);
   }
 let orders = [];
   for (let body in req.body) {
