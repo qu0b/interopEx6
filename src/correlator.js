@@ -201,7 +201,7 @@ app.route('/').get((req, res) => {
   console.log('order length', orders.length);
 
   if (orders.length === 4) {
-    addParts(...orders);
+    addParts(orders[0], orders[1], orders[2], orders[3]);
     startProcess();
     console.log('starting process');
     orders = []
