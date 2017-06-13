@@ -52,7 +52,7 @@ var addParts = (add1, add2, add3, add4) => {
 var finishProcess = (progress, pid) => {
         console.log("getting pid: ", pid, callbackMap.toString());
         let callback=callbackMap.get(pid)
-        callbackurl=callback[callback.length-1]
+        let callbackurl=callback[callback.length-1]
         console.log('sending order');
         console.log(callbackurl);
         callbackMap.set(pid, callbackMap.get(pid).pop());
