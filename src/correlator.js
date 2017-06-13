@@ -178,7 +178,7 @@ app.route('/').get((req, res) => {
 
     if (callbackMap.has(pid)) {
       let call = callbackMap.get(pid)
-      callback.push(cb)
+      call.push(cb)
 
       callbackMap.set(pid, call)
     }
