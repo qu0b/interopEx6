@@ -49,10 +49,13 @@ var addParts = (add1, add2, add3, add4) => {
   fs.writeFileSync('./../xml/process.xml', doc.toString());
 }
 
-var finishProcess = (progress, callbackurl, pid) => {
+var finishProcess = (progress, pid) => {
+
+        callback=callbackMap.get(pid)
+        callbackurl=callback[callback.length-1]
         console.log('sending order');
         console.log(callbackurl);
-
+        callbackMap.set(pid, callbackMap.get(pid).pop());
         var postData=JSON.stringify(progress);
 
         let options = {
@@ -170,8 +173,9 @@ var finishProcess = (progress, callbackurl, pid) => {
       console.log('callbackurl:', cb);
       console.log('pid', req.body.pid);
       if (cb && pid) {
+
         console.log('pid with callback');
-        callbackMap.has(pid) ? console.log('pid already exists') : callbackMap.set(pid, cb);
+        callbackMap.has(pid) ? callbackMap.set(pid, callbackMap.get(pid).push(cb)) : callbackMap.set(pid, [cb]);
 
       }
 
