@@ -90,7 +90,7 @@ var finishProcess = (progress, callbackurl, pid) => {
           reject();
         });
       }
-    }
+    })
 
     var startProcess = () => {
       var content = {
