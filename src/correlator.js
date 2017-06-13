@@ -182,7 +182,7 @@ var finishProcess = (progress, pid) => {
       if (pid && cb == undefined) {
         console.log('pid without callback');
 
-        finishProcess(req.body, callbackMap.get(pid), pid)
+        finishProcess(req.body, pid)
       }
 
       let orders = [];
